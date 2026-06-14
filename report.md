@@ -1,0 +1,197 @@
+# TASKFLOW DASHBOARD
+
+## Oasis Infobyte Internship Project Report
+
+### Submitted By
+
+Name:Kundala Jyothika
+
+Internship Domain: Web Development and Designing
+
+Project Title:TaskFlow Dashboard – To-Do list
+
+Task Number: Task 3
+
+Level:2
+
+# 1. Introduction
+
+TaskFlow Dashboard is a modern and responsive To-Do Management System developed using HTML, CSS, and JavaScript. The application helps users organize daily activities by creating, managing, prioritizing, and tracking tasks efficiently.
+
+The dashboard provides an intuitive interface where users can add tasks, assign priorities, mark tasks as completed, edit existing tasks, and delete tasks when necessary. All task data is stored locally using the browser's Local Storage, ensuring persistence even after the browser is closed.
+
+# 2. Objective
+
+The main objective of this project is to develop a user-friendly task management application that enables users to:
+
+* Add and organize daily tasks.
+* Assign priority levels to tasks.
+* Track completed and pending tasks.
+* Edit and delete tasks when required.
+* Store task information permanently using Local Storage.
+* View task statistics in a clean dashboard interface.
+
+# 3. Technologies Used
+
+| Technology        | Purpose                          |
+| ----------------- | -------------------------------- |
+| HTML5             | Structure of the web application |
+| CSS3              | Styling and responsive design    |
+| JavaScript        | Functionality and interactivity  |
+| Local Storage API | Data persistence                 |
+
+# 4. Project Features
+
+### Task Management
+
+* Add new tasks.
+* Edit existing tasks.
+* Delete tasks.
+* Mark tasks as completed.
+
+### Priority Management
+
+* High Priority
+* Medium Priority
+* Low Priority
+
+### Task Tracking
+
+* Separate sections for Pending Tasks and Completed Tasks.
+* Automatic sorting based on priority.
+
+### Statistics Dashboard
+
+* Total Tasks Count
+* Pending Tasks Count
+* Completed Tasks Count
+
+### Data Persistence
+
+* Uses Local Storage to save task information permanently.
+
+### Responsive Design
+
+* Works efficiently on desktop, tablet, and mobile devices.
+
+# 5. System Workflow
+
+### Step 1: Add Task
+
+The user enters a task description and selects a priority level.
+
+### Step 2: Save Task
+
+The task is stored in Local Storage along with:
+
+* Task ID
+* Task Name
+* Priority
+* Creation Time
+* Completion Status
+
+### Step 3: Manage Tasks
+
+Users can:
+
+* Edit tasks
+* Delete tasks
+* Mark tasks as completed
+
+### Step 4: Statistics Update
+
+The dashboard automatically updates:
+
+* Total tasks
+* Pending tasks
+* Completed tasks
+
+### Step 5: Persistent Storage
+
+All task data remains available even after refreshing or reopening the browser.
+
+# 6. Implementation Details
+
+## HTML Structure
+
+The application contains:
+
+* Header Section
+* Statistics Section
+* Task Input Form
+* Pending Tasks Section
+* Completed Tasks Section
+
+## CSS Design
+
+The user interface is designed using:
+
+* Flexbox
+* CSS Grid
+* Responsive Media Queries
+* Hover Effects
+* Modern Card Layouts
+* Gradient Backgrounds
+
+## JavaScript Functionality
+
+### addTask()
+
+Creates a new task and stores it in Local Storage.
+
+### completeTask()
+
+Marks a task as completed and records the completion time.
+
+### editTask()
+
+Allows users to modify existing task details.
+
+### deleteTask()
+
+Removes tasks permanently from storage.
+
+### saveTasks()
+
+Stores all task data in Local Storage.
+
+### renderTasks()
+
+Displays tasks dynamically in the dashboard.
+
+### updateStats()
+
+Calculates and updates task statistics.
+
+# 7. Screenshots
+
+## Dashboard Home Screen
+
+![my image](image/home%20page.png)
+
+## Adding a New Task
+
+![my image](image/add%20new%20task.png)
+
+## Pending Tasks Section
+
+![my image](image/pending%20task.png)
+
+## Completed Tasks Section
+
+![my image](image/completed%20task.png)
+
+# 8. Advantages of the Project
+
+* Easy to use interface.
+* Lightweight and fast.
+* No database required.
+* Persistent task storage.
+* Mobile-friendly design.
+* Efficient task prioritization.
+
+# 09. Conclusion
+
+The TaskFlow Dashboard successfully fulfills the objective of providing an efficient and user-friendly task management solution. The application demonstrates the practical use of HTML, CSS, JavaScript, and Local Storage to build a responsive web application.
+
+The project improves productivity by helping users manage tasks systematically while offering a clean and modern user experience. It also serves as a strong demonstration of front-end web development skills acquired during the internship.
